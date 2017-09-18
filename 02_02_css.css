@@ -1,8 +1,7 @@
-/*Imports font from https://fonts.google.com/*/
-@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
 /*1. Make the background color dark gray: #212121*/
 /*2. Change the font family to: 'lato'*/
-.my-body {background-color: gray;font-family:lato;
+.my-body {background-color: gray;font-family:Arial, Helvetica, sans-serif;
 }
 /*3. Enlarge the font size to: 4rem*/
 /*4. Thicken the font weight to: 900*/

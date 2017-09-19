@@ -1,0 +1,23 @@
+.con    {z-index: 0;
+         background-color: black;
+        }
+
+.div1   {height: 300px;
+         width: 500px;
+         margin: 0 auto
+         z-index: 1;
+         background-color: gray;
+         position: absolute; 
+         left: 0; 
+         top: 0;
+        }
+
+.div2   {height: 300px;
+         width:300px;
+         margin: 0 auto
+         z-index: 2;
+         background-color: white;
+         position: absolute;
+         left: 100; 
+         top: 100;
+        }

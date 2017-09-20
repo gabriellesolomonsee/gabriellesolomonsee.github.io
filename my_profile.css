@@ -1,7 +1,5 @@
 .my_photo {background-image: url("bgimg.tiff");
            background-repeat: no-repeat;
-           background-size: auto;
            background-position:top;
            background-attachment: fixed;
-           background-position:20% 50%;
           }

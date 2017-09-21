@@ -21,3 +21,8 @@ body {background-image: url("bg_sanghwang.jpg");
         border: 5px solid black;
         margin-left: 0;
        }
+
+.species-name{color: red;
+              font-style: italic;
+              font-size: 1rem;
+            }

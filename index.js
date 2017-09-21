@@ -16,7 +16,7 @@ function greet(nameOfPerson){var greeting_message="Welcome, Mr" + nameOfPersonco
 Greet("Bala")
 
 <script src="index.html">
-    
+
 function friendName(name1,name2){
     var ans=name1+" "+name1+" | "+name2+" "+name2;
     return ans;
@@ -26,3 +26,9 @@ var statement=friendName("Gabrielle", "Wei Bin");
 
 console.log(statement)
 
+
+for(var n=99;n>1;n=n-1) {
+    console.log(n + " bottles of beer on the wall, " + n + " bottles of beer. Take one down and pass it around, " + n-- + " bottles of beer on the wall.");
+    }
+
+    console.log(n + " bottles of beer on the wall, " + n + " bottles of beer. Take one down and pass it around, " + n-- + " bottles of beer on the wall.");

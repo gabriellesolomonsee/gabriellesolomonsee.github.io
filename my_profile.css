@@ -1,7 +1,23 @@
-body {background-image: url("bgimg.jpg");
+body {background-image: url("bg_sanghwang.jpg");
       background-repeat: no-repeat;
       background-position:top;
+      background-position:20% 20%;
       background-attachment: fixed;
       background-size: cover;
+	  padding: 50px;
      }
 
+.right-box {background-color:yellow;
+            opacity:0.5;
+            color:black;
+            padding: 0px 50px;
+           }
+
+.firstbox {padding-top:30px;}
+
+.firstbox {padding-bottom:30px;}
+
+.my-hr {width: 100%;
+        border: 5px solid black;
+        margin-left: 0;
+       }

@@ -7,10 +7,14 @@ body {background-image: url("bg_sanghwang.jpg");
 	    padding: 50px;
      }
 
+p {font-size: 1.2rem;
+  }
+
 .right-box {background-color:yellow;
             opacity:0.8;
             color:black;
             padding: 0px 50px;
+            text-align: justify;
            }
 
 .firstbox {padding-top:30px;}
@@ -24,5 +28,8 @@ body {background-image: url("bg_sanghwang.jpg");
 
 .species-name{color: red;
               font-style: italic;
-              font-size: 1rem;
+              font-size: 1.2rem;
             }
+
+ul {font-size: 1.2rem;
+}

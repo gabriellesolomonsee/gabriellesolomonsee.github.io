@@ -7,7 +7,6 @@
     <title>Gabrielle's Profile Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="my_profile.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="my-photo">
@@ -17,11 +16,9 @@
             
                 <div class="row justify-content-sm-center justify-content-md-end">
                     <div class="col-sm-10 col-md-6 col-lg-4 my-text right-box firstbox">
-                        <br>
                         <h1>Gabrielle Solomon See</h1>
-                        <br>
-                        <h3>My take on β-Glucans and its sources.</h3>
-                        <br>
+                        <h5>  </h5>
+                        <h5>My take on β-Glucans and its sources.</h5>
                         <p>It started when I was struggling to fight fatigue. 
                             Tremendous stress and lack of rest at a previous employment resulted in problems with blood pressure and chronic fatigue.
                             After trying all means without success, a friend recommended that I take <span class="species-name">Phellinus linteus</span> extract. </p>
@@ -40,48 +37,22 @@
                           
                           <hr class=my-hr>
                           <h3>Contact me</h3>
-
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-phone"></i>
-                                    <a href="tel:+6593622986">93622986</a>
-                                    </li>
-                                <li><i class="fa-li fa fa-envelope"></i>
-                                    <a
-                                    href="mailto:gabrielle@solomonsee.com">gabrielle@solomonsee.com</a>
-                                    </li>
-                            </ul>
-
                             <p>To subscribe to our mailing list, please fill up the following form.</p>
-                        
-                            <form method="post" action="https://script.google.com/macros/s/AKfycbyPlv3E45mE-d-tK9GNzT6ukm9t_Mb4dyeWtVNItZp5fa_h2a8A/exec" onSubmit="alert('Thank you. Keep in touch.');" >
-                                <fieldset>
-                                   <div class="form-group">
-                                        <label for="name-id">
-                                            name
-                                        </label>
-                                        <input type="text" name="NAME" id="name-id" class="form-control my-input" required>
-                                    </div>
-            
-                                    <div class="form-group">
-                                        <label for="email-id">
-                                            email
-                                        </label>
-                                        <input type="email" name="EMAIL" id="email-id" class="form-control my-input" required>
-                                    </div>
-            
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary my-btn form-control" id="submit-id">submit</button>
-                                        
-                                        <div class="alert alert-danger alert-dismissible fade in" hidden id="alert-id">
-                                            <button type="button" class="close" id="close-id">
-                                                <span>&times;</span>
-                                            </button>
-
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </form>
-            
+                        <form action="https://script.google.com/macros/s/AKfycbyPlv3E45mE-d-tK9GNzT6ukm9t_Mb4dyeWtVNItZp5fa_h2a8A/exec" method="POST">
+                                <div class="form-group">
+                                    <label for="name-id">Name</label>
+                                    <input type="text" name="NAME" id="name-id" class="form-control" required>
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="email-id">Email</label>
+                                    <input type="email" name="EMAIL" id="email-id" class="form-control" required>
+                                </div>
+                                    
+                                <div class="form-group lastbox">
+                                    <input type="submit" class="btn btn-primary">
+                                </div>
+                        </form>
                     </div>
                    
                 </div>

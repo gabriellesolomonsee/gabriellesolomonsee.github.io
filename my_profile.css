@@ -17,11 +17,6 @@ p {font-size: 1.2rem;
             text-align: justify;
            }
 
-.first_letter {font-size: 3rem;
-			   color: black;
-			   font-style:bold;
-			   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
-			  }
 
 .firstbox {padding-top:30px;}
 
@@ -33,7 +28,7 @@ p {font-size: 1.2rem;
        }
 
 .species-name{font-style: italic;
-			  color: black;
+			  color: #3B1B0B;
               font-size: 1.2rem;
             }
 

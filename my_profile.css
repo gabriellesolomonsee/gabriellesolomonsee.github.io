@@ -17,6 +17,10 @@ p {font-size: 1.2rem;
             text-align: justify;
            }
 
+.first_letter {font-size: 2rem;
+			   color: brown;
+			  }
+
 .firstbox {padding-top:30px;}
 
 .firstbox {padding-bottom:30px;}

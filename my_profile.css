@@ -1,14 +1,14 @@
 body {background-image: url("bg_sanghwang.jpg");
       background-repeat: no-repeat;
       background-position:top;
-      background-position:20% 20%;
+      background-position:20% 30%;
       background-attachment: fixed;
       background-size: cover;
-	  padding: 50px;
+	    padding: 50px;
      }
 
 .right-box {background-color:yellow;
-            opacity:0.5;
+            opacity:0.8;
             color:black;
             padding: 0px 50px;
            }

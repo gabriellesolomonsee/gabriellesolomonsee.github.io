@@ -17,8 +17,10 @@ p {font-size: 1.2rem;
             text-align: justify;
            }
 
-.first_letter {font-size: 2rem;
+.first_letter {font-size: 3rem;
 			   color: brown;
+			   font-style:bold;
+			   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
 			  }
 
 .firstbox {padding-top:30px;}

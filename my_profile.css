@@ -18,7 +18,6 @@ p {font-size: 1.2rem;
            }
 
 .first_letter {font-size: 3rem;
-			   color: brown;
 			   font-style:bold;
 			   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
 			  }
@@ -32,8 +31,7 @@ p {font-size: 1.2rem;
         margin-left: 0;
        }
 
-.species-name{color: red;
-              font-style: italic;
+.species-name{font-style: italic;
               font-size: 1.2rem;
             }
 
